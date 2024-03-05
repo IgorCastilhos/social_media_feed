@@ -1,0 +1,37 @@
+/* Aplicando regras pra página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Inter", sans-serif;
+}
+
+/* Criando variáveis para as cores */
+:root{
+    --white: #fff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+    --purple: #8284FA;
+    --purple-dark: #5e60ce;
+    --blue: #00C5E0;
+    --blue-dark: #14A5C5;
+    --danger: #F75A68;
+}
+
+body{
+    background: var(--gray-600);
+    color: var(--gray-100);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    /* Aplica nos navegadores baseados no webkit (chrome, edge, brave) uma padronização, pras fontes ficarem mais finas, detalhadas. Principalmente pra fontes que não são padrões do sistema, como Arial, Velvet*/
+}
+
+button {
+    cursor: pointer;
+}
+
